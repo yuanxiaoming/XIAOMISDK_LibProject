@@ -392,7 +392,6 @@ public class _XIAOMI implements IPayManager {
             params.put("roleName",roleName);
             params.put("money",mMoney);
             params.put("pext",pext);
-            params.put("money",mMoney);
             params.put("payway",mPayway);
             params.put("outOrderid",outOrderid);
             String hashMapTOgetParams = NetHttpUtil.hashMapTOgetParams(params, APIConstants.PAY_URL);
